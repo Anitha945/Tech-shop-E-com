@@ -1,0 +1,160 @@
+/* ================== GLOBAL ================== */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ================== SECTION ================== */
+.container-fluid.bg-dark {
+  background-color: #121212 !important;
+}
+
+/* ================== CATEGORY BUTTONS ================== */
+.button-container button {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.button-container button:hover {
+  background: red;
+  border-color: red;
+}
+
+.button-container .active {
+  background: red;
+  border-color: red;
+}
+
+/* Highlight active category */
+.button_fist_prod {
+  background: red !important;
+  border-color: red !important;
+}
+
+/* ================== PRODUCT CARDS ================== */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.2);
+}
+
+.card img {
+  height: 200px;
+  object-fit: contain;
+  background: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+/* Card Body */
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.85rem;
+  color: #bbb;
+}
+
+/* ================== PRICES ================== */
+.product_font_head {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.font_mute_c {
+  color: #888 !important;
+}
+
+/* ================== ADD TO CART BUTTON ================== */
+.card_button_bottom {
+  background: red !important;
+  color: #fff !important;
+  border-radius: 25px;
+  padding: 8px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+
+.card_button_bottom:hover {
+  background: darkred !important;
+}
+
+/* ================== EXTRA CARD ================== */
+.custom-col .card {
+  border: 2px dashed #fff;
+  transition: all 0.3s ease;
+}
+
+.custom-col .card:hover {
+  border-color: red;
+  background: #1c1c1c;
+}
+
+.custom-col h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.yyy {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+.yyy:hover {
+  color: red;
+}
+
+/* ================== RESPONSIVE ================== */
+@media (max-width: 768px) {
+  .card img {
+    height: 160px;
+  }
+
+  .card-title {
+    font-size: 0.9rem;
+  }
+
+  .product_font_head {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .button-container button {
+    margin: 5px;
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .card img {
+    height: 140px;
+  }
+
+  .card_button_bottom {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+}

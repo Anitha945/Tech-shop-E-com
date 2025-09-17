@@ -1,0 +1,149 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Main image + thumbnails container */
+.image-wrapper {
+  display: flex;
+}
+
+/* Main image */
+.main-image img {
+  width: 44vw;
+}
+
+/* Thumbnails */
+.product_details_small_image_width {
+  width: 10vw;
+}
+
+/* Product details side layout */
+.product_details_right {
+  width: 44vw;
+  margin-left: 10vw;
+}
+
+/* Stock button */
+.product_details_stock_button {
+  background-color: rgb(0, 161, 0);
+  width: 10vw;  
+  border-radius: 4px;
+}
+
+/* Add to cart button */
+.product_details_rigth_button {
+  background-color: #ff4500;
+  width: 20vw;
+}
+
+/* Card + fonts */
+.card_font_s {
+  color: white !important;
+}
+.font_mute_c {
+  color: rgb(82, 80, 80);
+}
+.card_button_bottom {
+  background-color: red !important;
+  color: white !important;
+}
+
+/* --------------------- RESPONSIVE --------------------- */
+
+/* Tablets & small laptops */
+@media (min-width: 455px) and (max-width: 768px) {
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product_details_stock_button {
+    margin-right: 60px;
+    width: 120px;
+  }
+
+  .image-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .main-image img {
+    width: 60vw;
+    padding-top: 90px;
+    margin-left: 40px;
+  }
+
+  .product_details_small_image_width {
+    width: 15vw;
+  }
+
+  .product_details_right {
+    width: 90vw;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+/* Mobile < 426px */
+@media (max-width: 426px) {
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main-image {
+    width: 80vw;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
+  .product_details_small_image_width {
+    width: 18vw;
+  }
+
+  .product_details_right {
+    width: 95vw;
+    margin: 20px auto 0;
+  }
+
+  .product_details_stock_button {
+    margin-top: 20px;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .font_size_product {
+    font-size: 0.8rem !important; /* fixed (instead of .1rem) */
+  }
+
+  .product_details_rigth_button {
+    width: 160px;
+  }
+
+  .specificationWidth {
+    width: 300px !important;
+  }
+}
+
+/* Very small devices < 322px */
+@media (max-width: 322px) {
+  .font_size_product {
+    font-size: 0.7rem !important;
+  }
+  .product_details_rigth_button {
+    width: 140px;
+    font-size: 12px;
+  }
+}
