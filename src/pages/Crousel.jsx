@@ -12,9 +12,9 @@ export default function Carousel() {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: tru,
     autoplaySpeed: 3000,
-    cssEase: "linea",
+    cssEase: "linear",
   };
 
   console.log("slider", SliderData);
