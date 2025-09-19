@@ -18,7 +18,7 @@ const ProductDetails = () => {
       id: 1,
       name: "Mani",
       date: "4 Aug 2025",
-      rating: 4,
+      rating: 5,
       text: "Sound is awesome and as I expected, love it.",
       avatar:
         "https://ui-avatars.com/api/?name=MD+Shoeb+Khan&background=F31260&color=fff",
