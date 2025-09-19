@@ -38,7 +38,7 @@ const cartMiddleware=(store)=>(next)=>(action)=>{
     try{
         localStorage.setItem("cartItems",JSON.stringify(store.getState().cartItems.cart));
     }catch {}
-    return result;
+    return resut;
 };
 // export actions and reducer
 export const {addToCart,removeFromCart,increaseQty,decreaseQty}=productSlice.actions;
