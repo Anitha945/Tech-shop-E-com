@@ -18,7 +18,7 @@ export const SliderData = [
               title: "JBL Live 660NC",
               info: "Wireless Over-Ear NC Headphones",
               category: "Headphones",
-              ype: "Over Ear",
+              type: "Over Ear",
               connectivity: "Wireless",
               finalPrice: 9999,
               originalPrice: 14999,

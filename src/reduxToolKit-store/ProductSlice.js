@@ -34,7 +34,7 @@ const productSlice=createSlice({
 });
 //Middleware to save cart to localStorage
 const cartMiddleware=(store)=>(next)=>(action)=>{
-    const result=next(action);
+    const result=next(actin);
     try{
         localStorage.setItem("cartItems",JSON.stringify(store.getState().cartItems.cart));
     }catch {}
