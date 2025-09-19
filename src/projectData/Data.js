@@ -98,10 +98,10 @@ const productsData = [
         connectivity: "Wireless",
         finalPrice: 9999,
         originalPrice: 14999,
-        quantity: 1
+        quantity: 1,
         ratings: 1234,
         rateCount: 5,
-        path: "/product-details/"
+        path: "/product-details/",
     },
     {
         id: 2,

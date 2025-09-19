@@ -76,7 +76,7 @@ const Footer = () => {
         <div className="text-start">
           <div className="row">
             <div className="col-8">
-              <p>2025 | All Right Reserved &copy;Shoeb khan</p>
+              <p>2025 | All Right Reserved &copy;Anith</p>
             </div>
             <div className="col-4 text-end">
               <div className="d-flex flex-row justify-content-evenly">
