@@ -17,7 +17,7 @@ import Advantages from './component/Advantages.jsx'
 const App = () => {
   return (
     <div>
-      <ToastContiner position="top-right" autoClose={2000} />
+      <ToastContainer position="top-right" autoClose={2000} />
 
       <Header />
       {/* <Home/> */}
