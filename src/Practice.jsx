@@ -10,4 +10,4 @@ function MyComponent() {
     </div>
   );
 }
-export default MyCompnent;
+export default MyComponent;
