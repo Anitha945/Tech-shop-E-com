@@ -17,7 +17,7 @@ export default function Carousel() {
     cssEase: "linear",
   };
 
-  console.log("slider", SliderData);
+  console.log("slide", SliderData);
 
   return (
     <div className="py-6 overflow-hidden bg-black">
