@@ -3,7 +3,7 @@ import { cartReducer, cartMiddlewareFn } from "./productSlice";
 
 //configure store
 export const store=configureStore({
-    reducer:{cartItems:cartReducer},
+    reducer:{cartItems:catReducer},
     middleware:(getDefaultMiddleware)=>
     getDefaultMiddleware().concat(cartMiddlewareFn),
 });
